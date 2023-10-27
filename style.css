@@ -69,9 +69,6 @@ button:hover{
 }
 
 @media (max-width:720px) {
-    body{
-        height: 200vh;
-    }
     main{
         flex-direction: column;
     }
