@@ -6,7 +6,7 @@
     box-sizing: border-box;
     font-family: 'Lexend Deca', sans-serif;
     font-size: 15px;
-    color: hsla(0, 0%, 100%, .75    );
+    color: hsla(0, 0%, 100%    );
 }
 body{
     display: flex;
@@ -31,12 +31,13 @@ h2{
     padding: 20px 0;
 }
 p{
-    color: hsla(0, 0%, 100%,);
+    color: hsla(0, 0%, 100%,.5);
+    line-height: 25px;
     max-width: 200px;
     padding: 0 0 60px 0 ;
 }
 button {
-    background-color:  hsla(0, 0%, 100%, .75);
+    background-color:  hsla(0, 0%, 100%);
     color: hsl(31, 77%, 52%);
     padding: 10px 20px;
     border-radius: 50px;
@@ -45,8 +46,8 @@ button {
 }
 button:hover{
     background: 0;
-    color: hsla(0, 0%, 100%, .75);
-    border:2px solid hsla(0, 0%, 100%, .75)
+    color: hsla(0, 0%, 100%);
+    border:2px solid hsla(0, 0%, 100%)
 }
 .s2 {
     background-color: hsl(184, 100%, 22%);
@@ -55,7 +56,7 @@ button:hover{
     color: hsl(179, 100%, 13%);
 }
 .s2 button:hover{
-    color: hsla(0, 0%, 100%, .75);
+    color: hsla(0, 0%, 100%);
 }
 .s3 {
     background-color: hsl(179, 100%, 13%);
@@ -65,18 +66,17 @@ button:hover{
     color: hsl(179, 100%, 13%);
 }
 .s3 button:hover{
-    color: hsla(0, 0%, 100%, .75);
+    color: hsla(0, 0%, 100%);
 }
 
 @media (max-width:720px) {
     body{
-        height: 200vh;
+        height: 150vh;
     }
     main{
         flex-direction: column;
     }
     header img {
         width: 50px;
-        height: 40px;
     }
 }
