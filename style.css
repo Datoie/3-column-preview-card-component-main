@@ -70,12 +70,6 @@ button:hover{
 }
 
 @media (max-width:720px) {
-<<<<<<< HEAD
-    body{
-        height: 150vh;
-    }
-=======
->>>>>>> 9decb2480d513e79d4fec69086e2b5cc8e3f23d1
     main{
         flex-direction: column;
     }
